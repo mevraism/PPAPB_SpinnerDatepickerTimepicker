@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BlueTimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#3b82f6</item> <!-- Warna biru untuk elemen interaktif -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Warna teks utama -->
+        <item name="android:textColorSecondary">#3b82f6</item> <!-- Warna teks sekunder (untuk tombol) -->
+        <item name="android:windowBackground">@android:color/white</item> <!-- Background putih -->
+        <item name="android:buttonBarButtonStyle">@style/BlueButtonStyle</item>
+    </style>
+
+    <style name="BlueButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#3b82f6</item> <!-- Warna teks tombol -->
+    </style>
+</resources>

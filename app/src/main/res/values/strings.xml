@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TugasPertemuan6-Spinner&amp;DateTimePicker</string>
+    <string name="Title">Pemesanan</string>
+    <string name="Title_below">Tiket Kereta</string>
+    <string name="hint_username">Nama Pemesan</string>
+    <string name="hint_departure_time">Jam Keberangkatan</string>
+    <string name="hint_destination">Tujuan</string>
+    <string name="hint_date_depature">Pilih Tanggal Keberangkatan</string>
+    <string name="book_ticket">Pesan Tiket</string>
+    <string name="confirm_title_booking">Konfirmasi Pemesanan</string>
+    <string name="price_info">Tarif Tiket</string>
+    <string name="price">Rp200.000</string>
+    <string name="cancel">Batal</string>
+    <string name="confirmed">Beli</string>
+    <string name="congrats_text">Berhasil Mendapatkan Tiket !</string>
+    <string name="name">"Nama"</string>
+    <string name="time">Jam</string>
+    <string name="date">Tanggal</string>
+    <string name="destination">Tujuan</string>
+    <array name="destination">
+        <item>Bandung</item>
+        <item>Bogor</item>
+        <item>Cirebon</item>
+        <item>Yogyakarta</item>
+        <item>Magelang</item>
+        <item>Surabaya</item>
+        <item>Malang</item>
+        <item>Kediri</item>
+        <item>Pekalongan</item>
+        <item>Semarang</item>
+    </array>
+</resources>

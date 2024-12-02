@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Title"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/title_below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Title_below"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:startIconDrawable="@drawable/ic_username"
+        app:startIconTint="@color/darkGrey"
+        android:elevation="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_username"
+            app:hintTextColor="@color/darkGrey"
+            android:paddingStart="48dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/rounded_background"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/time_depature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/rounded_background"
+        android:text="@string/hint_departure_time"
+        android:textColor="#B3B3B3"
+        android:elevation="8dp"
+        android:drawableStart="@drawable/baseline_access_time_24"
+        android:tint="@color/darkGrey"
+        android:gravity="center_vertical"
+        app:backgroundTint="@color/grey"
+        android:drawablePadding="16dp"
+        android:drawableTint="@color/darkGrey"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/date_depature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/rounded_background"
+        android:text="@string/hint_date_depature"
+        android:textColor="#B3B3B3"
+        android:elevation="8dp"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:tint="@color/darkGrey"
+        android:gravity="center_vertical"
+        app:backgroundTint="@color/grey"
+        android:drawablePadding="16dp"
+        android:drawableTint="@color/darkGrey"
+        />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custome_drawable_spinnner"
+        android:paddingEnd="16dp"
+        android:popupBackground="@android:color/black"
+        android:spinnerMode="dropdown"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_show_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_blue_background"
+        android:onClick="submitbuttonHandler"
+        android:text="@string/book_ticket"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
+        />
+
+</LinearLayout>

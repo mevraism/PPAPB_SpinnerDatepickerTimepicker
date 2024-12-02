@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#FF5C8D" /> <!-- Pinkish Red Color -->
+            <padding
+                android:left="16dp"
+                android:right="16dp"
+                android:top="8dp"
+                android:bottom="8dp" />
+            <size android:width="0dp" android:height="48dp" />
+        </shape>
+    </item>
+    <item android:bottom="3dp" android:left="3dp" android:right="3dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="#FF8088" /> <!-- Slightly darker shadow -->
+        </shape>
+    </item>
+</layer-list>
